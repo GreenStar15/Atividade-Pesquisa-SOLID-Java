@@ -1,0 +1,16 @@
+========================
+COMO COMPILAR E EXECUTAR
+========================
+
+Abrir o terminal na pasta solid_isp/ e rodar:
+
+# Compilar tudo (de dentro de solid_isp)
+javac -d out exemplo_ruim\*.java exemplo_bom\*.java
+
+# Rodar o exemplo RUIM
+java -cp out exemplo_ruim.MainRuim
+
+# Rodar o exemplo BOM
+java -cp out exemplo_bom.MainBom
+
+Requer Java 17+ instalado.

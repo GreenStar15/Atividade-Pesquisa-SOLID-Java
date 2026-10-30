@@ -1,0 +1,17 @@
+﻿# Compilados Java
+*.class
+out/
+bin/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive
+desktop.ini
